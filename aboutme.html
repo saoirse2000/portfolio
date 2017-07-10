@@ -5,24 +5,16 @@
    <h1 style="text-align:center;">Saoirse Anggreni</h1>
    <img src="IMG_1368.JPG" style="width:128px;height:128px;">
   <h3> About Me </h3>
-  <style type="text/css"> 
-#text 
-{ 
-display: none 
-} 
-</style> 
-<script type="text/javascript"> 
-function callMe() 
-{ 
-document.getElementById("text").style.display = 'block'; 
-} 
-</script> 
-</head> 
-<body> 
-<div id="text">Hello! How are you?</div> 
-<form> 
-<input type="button" name="button" id="button" value= "Call Me" onclick="javascript:callMe()" /> 
-</form> 
+<script>
+function changeText()
+{
+ document.getElementById('boldStuff').innerHTML = 'Fred Flinstone';
+}
+</script>
+<p>Welcome to the site <b id='boldStuff'>dude</b> </p> 
+<input type='button' onclick='changeText()' value='Change Text'/>
+</body>
+</html>
   <p> I was born on February 27, 2000 in San Francisco. Both of my parents immigrated
    to The United States before I was born. My mother is from Ireland and my father is from Indonesia.
    That is where my name comes from. Saoirse means "freedom" in Irish and Anggreni is my father's sister's name,
